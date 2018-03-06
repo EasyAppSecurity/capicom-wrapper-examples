@@ -17,7 +17,7 @@ public class Encryption {
         capicomDecrypted.setSecret("test");
         capicomDecrypted.decrypt(encrypt);
         String decrypt = capicomDecrypted.getContent();
-        System.out.println("Decrypted: " + encrypt);
+        System.out.println("Decrypted: " + decrypt);
     }
 
 }
